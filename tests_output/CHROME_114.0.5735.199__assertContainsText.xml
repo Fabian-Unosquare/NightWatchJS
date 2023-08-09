@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="assertContainsText"
+    errors="0" failures="1" hostname="" id="" package="assertContainsText" skipped="0"
+    tests="1" time="16.90" timestamp="">
+  
+    <testcase name="Demo test contains text" classname="assertContainsText" time="8.449" assertions="2">
+
+      <failure message="Testing if element &lt;li a[href = &#39;/Services&#39;]&gt; contains text &#39;SERVICES&#39; in 5000ms - expected &#34;contains text &#39;SERVICES&#39;&#34; but got: &#34;element could not be located&#34; (5290ms)">    at Demo test contains text (C:\Users\fabian.sanchez\Documents\nightwatch\Tests\assertContainsText.js:8:10)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

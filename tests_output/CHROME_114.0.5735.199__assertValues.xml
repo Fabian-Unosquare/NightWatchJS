@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="assertValues"
+    errors="0" failures="1" hostname="" id="" package="assertValues" skipped="0"
+    tests="1" time="10.67" timestamp="">
+  
+    <testcase name="demoTest" classname="assertValues" time="5.331" assertions="1">  <failure message="Testing if value of element &lt;form.login input[type=text]&gt; equals &#39;username&#39; in 5000ms - expected &#34;equals &#39;username&#39;&#34; but got: &#34;element could not be located&#34; (5251ms)">    at Object.demoTest (C:\Users\fabian.sanchez\Documents\nightwatch\Tests\assertValues.js:2:17)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchWindowError
+   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

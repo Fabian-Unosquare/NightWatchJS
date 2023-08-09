@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="assertEquals"
+    errors="0" failures="1" hostname="" id="" package="assertEquals" skipped="0"
+    tests="1" time="16.96" timestamp="">
+  
+    <testcase name="Demo test contains text" classname="assertEquals" time="8.479" assertions="2">
+
+      <failure message="Testing if attribute &#39;SERVICES&#39; of element &lt;li a[href = &#39;/Services&#39;]&gt; equals &#39;undefined&#39; in 5000ms - expected &#34;equals &#39;undefined&#39;&#34; but got: &#34;element could not be located&#34; (5265ms)">    at Demo test contains text (C:\Users\fabian.sanchez\Documents\nightwatch\Tests\assertEquals.js:8:10)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

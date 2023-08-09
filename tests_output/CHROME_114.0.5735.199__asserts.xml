@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="asserts"
+    errors="0" failures="1" hostname="" id="" package="asserts" skipped="0"
+    tests="1" time="19.24" timestamp="">
+  
+    <testcase name="Demo asserts test" classname="asserts" time="9.621" assertions="3">
+
+    
+
+      <failure message="Testing if element &lt;Gmail&gt; is visible in 5000ms - expected &#34;is visible&#34; but got: &#34;element could not be located&#34; (5302ms)">    at Demo asserts test (C:\Users\fabian.sanchez\Documents\nightwatch\Tests\asserts.js:9:11)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

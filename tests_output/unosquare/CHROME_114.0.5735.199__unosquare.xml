@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="unosquare.unosquare"
+    errors="0" failures="1" hostname="" id="" package="unosquare" skipped="0"
+    tests="1" time="17.13" timestamp="">
+  
+    <testcase name="test pages validation" classname="unosquare.unosquare" time="8.563" assertions="1">  <failure message="Timed out while waiting for element &lt;li a[href = &#39;/ContactUs&#39;]&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5223ms)">    at test pages validation (C:\Users\fabian.sanchez\Documents\nightwatch\Tests\unosquare\unosquare.js:7:8)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\fabian.sanchez\Documents\nightwatch\Tests\unosquare\unosquareTest.js:
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     5 |       .url(&#39;https://www.unosquare.com&#39;)
+     6 |       .waitForElementVisible(&#39;body&#39;)
+     7 |       .click(&#34;li a[href = &#39;/ContactUs&#39;]&#34;) 
+     8 |       .click(&#34;li a[href = &#39;/Industries&#39;]&#34;)
+     9 |       browser.end();
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\fabian.sanchez\Documents\nightwatch\Tests\unosquare\unosquareTest.js:
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     6 |       .waitForElementVisible(&#39;body&#39;)
+     7 |       .click(&#34;li a[href = &#39;/ContactUs&#39;]&#34;)
+     8 |       .click(&#34;li a[href = &#39;/Industries&#39;]&#34;) 
+     9 |       browser.end();
+     10 |     },
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\fabian.sanchez\Documents\nightwatch\Tests\unosquare\unosquareTest.js:
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     15 |       .url(&#39;https://www.unosquare.com&#39;)
+     16 |       .waitForElementVisible(&#39;body&#39;)
+     17 |       .click(&#34;li a[href = &#39;/ContactUs&#39;]&#34;) 
+     18 |       .click(&#34;li a[href = &#39;/Industries&#39;]&#34;)
+     19 |       .assert.cssProperty(&#34;li a[href = &#39;/About&#39;]&#34;, &#39;font-size&#39;, &#39;12px&#39;) // This assert is going to fail
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\fabian.sanchez\Documents\nightwatch\Tests\unosquare\unosquareTest.js:
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     16 |       .waitForElementVisible(&#39;body&#39;)
+     17 |       .click(&#34;li a[href = &#39;/ContactUs&#39;]&#34;)
+     18 |       .click(&#34;li a[href = &#39;/Industries&#39;]&#34;) 
+     19 |       .assert.cssProperty(&#34;li a[href = &#39;/About&#39;]&#34;, &#39;font-size&#39;, &#39;12px&#39;) // This assert is going to fail
+     20 |       browser.end();
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

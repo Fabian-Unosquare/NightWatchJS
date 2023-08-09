@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="Amazon.amazon"
+    errors="0" failures="1" hostname="" id="" package="Amazon" skipped="0"
+    tests="1" time="10.92" timestamp="">
+  
+    <testcase name="Test 2 : Amazon" classname="Amazon.amazon" time="5.461" assertions="1">  <failure message="Timed out while waiting for element &lt;input[id=&#39;twotabsearchtextbox&#39;]&gt; to be present for 1000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (1029ms)">    at Page.productsAmazon (C:\Users\fabian.sanchez\Documents\nightwatch\PageObjects\Amazon\mainPage.js:11:15)
+    at Test 2 : Amazon (C:\Users\fabian.sanchez\Documents\nightwatch\Tests\Amazon\amazon.js:6:4)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

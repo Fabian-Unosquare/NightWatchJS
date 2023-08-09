@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="cssProperty"
+    errors="0" failures="1" hostname="" id="" package="cssProperty" skipped="0"
+    tests="1" time="16.90" timestamp="">
+  
+    <testcase name="Demo test cssProperty" classname="cssProperty" time="8.449" assertions="2">
+
+      <failure message="Testing if element &lt;li a[href = &#39;/About&#39;]&gt; has css property &#39;display: block&#39; in 5000ms - expected &#34;block&#34; but got: &#34;element could not be located&#34; (5214ms)">    at Demo test cssProperty (C:\Users\fabian.sanchez\Documents\nightwatch\Tests\cssProperty.js:7:10)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

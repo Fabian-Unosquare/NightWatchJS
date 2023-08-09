@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="2"
+            tests="2">
+
+  <testsuite name="ApiTests"
+    errors="0" failures="2" hostname="" id="" package="ApiTests" skipped="0"
+    tests="2" time="2.923" timestamp="">
+  
+    <testcase name="API Testing - GET Positive" classname="ApiTests" time="0.9600" assertions="2">
+
+      <failure message="Failed [equal]: (&#39;\nDaniel Stern\n&#39; == &#39;Shaun Robertson&#39;) - expected &#34;Shaun Robertson&#34; but got: &#34;
+Daniel Stern
+&#34; (2ms)">    at C:\Users\fabian.sanchez\Documents\nightwatch\Tests\ApiTests.js:11:28
+    at CommandInstance.&lt;anonymous&gt; (C:\Users\fabian.sanchez\Documents\nightwatch\commands\apiGet.js:16:5)
+    at Stream.emit (node:events:513:28)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="API Testing - GET Negative" classname="ApiTests" time="0.5010" assertions="2">
+
+      <failure message="Failed [equal]: (&#39;\nDaniel Stern\n&#39; == &#39;My Name&#39;) - expected &#34;My Name&#34; but got: &#34;
+Daniel Stern
+&#34; (1ms)">    at C:\Users\fabian.sanchez\Documents\nightwatch\Tests\ApiTests.js:21:28
+    at CommandInstance.&lt;anonymous&gt; (C:\Users\fabian.sanchez\Documents\nightwatch\commands\apiGet.js:16:5)
+    at Stream.emit (node:events:513:28)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\fabian.sanchez\Documents\nightwatch\Tests\unosquare\unosquareTest.js:
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     5 |       .url(&#39;https://www.unosquare.com&#39;)
+     6 |       .waitForElementVisible(&#39;body&#39;)
+     7 |       .click(&#34;li a[href = &#39;/ContactUs&#39;]&#34;) 
+     8 |       .click(&#34;li a[href = &#39;/Industries&#39;]&#34;)
+     9 |       browser.end();
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\fabian.sanchez\Documents\nightwatch\Tests\unosquare\unosquareTest.js:
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     6 |       .waitForElementVisible(&#39;body&#39;)
+     7 |       .click(&#34;li a[href = &#39;/ContactUs&#39;]&#34;)
+     8 |       .click(&#34;li a[href = &#39;/Industries&#39;]&#34;) 
+     9 |       browser.end();
+     10 |     },
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\fabian.sanchez\Documents\nightwatch\Tests\unosquare\unosquareTest.js:
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     15 |       .url(&#39;https://www.unosquare.com&#39;)
+     16 |       .waitForElementVisible(&#39;body&#39;)
+     17 |       .click(&#34;li a[href = &#39;/ContactUs&#39;]&#34;) 
+     18 |       .click(&#34;li a[href = &#39;/Industries&#39;]&#34;)
+     19 |       .assert.cssProperty(&#34;li a[href = &#39;/About&#39;]&#34;, &#39;font-size&#39;, &#39;12px&#39;) // This assert is going to fail
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\fabian.sanchez\Documents\nightwatch\Tests\unosquare\unosquareTest.js:
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     16 |       .waitForElementVisible(&#39;body&#39;)
+     17 |       .click(&#34;li a[href = &#39;/ContactUs&#39;]&#34;)
+     18 |       .click(&#34;li a[href = &#39;/Industries&#39;]&#34;) 
+     19 |       .assert.cssProperty(&#34;li a[href = &#39;/About&#39;]&#34;, &#39;font-size&#39;, &#39;12px&#39;) // This assert is going to fail
+     20 |       browser.end();
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
